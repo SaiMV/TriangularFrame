@@ -1,0 +1,12 @@
+
+<div style="display:inline-flex;" [ngClass]="getMainLabelClassNames()" >
+  
+  <tf-icon *ngIf="iconName != undefined && iconName != null && iconName != ''" [iconSize] = "iconSize"  [iconName]="iconName"></tf-icon>
+    <span class="css-tf-text"  [style.color] = "textColor" [ngClass] = "getClassNames()" >
+        {{text}} 
+     <ng-content *ngIf="text == null && text == undefined"> </ng-content>
+  </span>
+</div>
+
+
+

@@ -1,0 +1,56 @@
+
+*{
+  -webkit-tap-highlight-color: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+  -webkit-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -khtml-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+
+}
+
+.css-tf-text{
+  color: rgb(9, 97, 139);
+  font-family: roboto;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height:16px;
+  padding:8px 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.css-tf-text-hover:hover{
+  opacity:.7;
+}
+
+.css-tf-text-hover-underline:hover{
+padding-bottom: 7px;
+border-bottom:1px solid grey;
+}
+.css-tf-text-underline{
+border-bottom:1px solid grey;
+}
+.is-icon-available{
+  border-bottom:1px solid grey;
+  position: relative;
+  vertical-align: middle;
+  top:2px;
+}
+.is-icon-available .css-tf-text-underline{
+  border-bottom:none;
+  }
+.css-tf-text-disable{
+pointer-events: none;
+ opacity:.5;
+}
+ 
+.css-tf-text-on-icon-display{
+  padding-top:5px;
+}
