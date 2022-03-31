@@ -1,19 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-label-example',
+  selector: 'label-example',
   templateUrl: './label-example.component.html',
-  styleUrls: ['./label-example.component.css']
+  styleUrls: ['./label-example.component.css'],
 })
 export class LabelExampleComponent implements OnInit {
+  constructor() {}
 
-  constructor() { } 
-
-  ngOnInit() {
-  
-  }
-
-
-
-
+  ngOnInit() {}
 }

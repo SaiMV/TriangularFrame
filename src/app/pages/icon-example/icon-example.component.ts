@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-icon-example',
+  selector: 'icon-example',
   templateUrl: './icon-example.component.html',
-  styleUrls: ['./icon-example.component.css']
+  styleUrls: ['./icon-example.component.css'],
 })
 export class IconExampleComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-public iname="dotted-line";
+  ngOnInit() {}
+  public iname = 'dotted-line';
 }
